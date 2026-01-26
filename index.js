@@ -130,7 +130,7 @@
 
 
 
-const improperStr = "Do not do this"
+// const improperStr = "Do not do this"
 
-console.log(improperStr);
+// console.log(improperStr);
 
