@@ -134,3 +134,9 @@
 
 // console.log(improperStr);
 
+// console.log(foo);
+// var foo = "hello";
+// console.log(foo);
+
+
+console.log(1 + "2" + 3);
