@@ -6,9 +6,6 @@
 // console.log("a =", a.value);
 // console.log("b =", b.value);
 
-
-
-
 // question: 02
 // class Person {
 //     constructor(name, age) {
@@ -24,10 +21,8 @@
 // const user1 = new Person('Ehasun', 21);
 // const user2 = new Person('Orko', 25);
 
-
 // user1.myFunction();
 // user2.myFunction();
-
 
 // class BankAccount {
 //     constructor(balance){
@@ -48,29 +43,24 @@
 
 // console.log(transaction1.myBalance());
 
-
-
 // function Users(name) {
 //   this.name = name;
 // }
 
 // Users.prototype.login = function() {
 //     console.log("login");
-    
+
 // }
 
 // const u1 = new Users("Orko");
 
 // MERN Project-এ OOP কোথায় ব্যবহার করো?
 
-
-
-
-// q1. 
+// q1.
 // function reverseString(str) {
 //     if(typeof str !== "string") {
 //         return
-//     } 
+//     }
 //     else {
 //         return str.split("").reverse().join("");
 //     }
@@ -109,8 +99,7 @@
 
 // console.log(findLargestNumber([5, 9, 7, 3]));
 
-
-// q4. 
+// q4.
 // function sumOfArr(arr) {
 //     return arr.reduce((sum, num) => {
 //      return sum + num
@@ -128,8 +117,6 @@
 
 // console.log(getEvenNumber([1, 2, 3, 4, 5, 6]));
 
-
-
 // const improperStr = "Do not do this"
 
 // console.log(improperStr);
@@ -138,10 +125,30 @@
 // var foo = "hello";
 // console.log(foo);
 
-
 // console.log(1 + "2" + 3);
-
 
 // console.log(3 + true)
 
-console.log("orko")
+// console.log("orko")
+
+
+
+
+
+
+
+// Find the longest string
+
+const arr = ["React", "Python", "JavaScript"];
+
+let longest = "";
+
+for(let s of arr) {
+    if(s.length > longest.length) {
+        longest = s
+    }
+}
+
+console.log(longest);
+
+
