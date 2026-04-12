@@ -131,31 +131,19 @@
 
 // console.log("orko")
 
-
-
-
-
-
-
 // Find the longest string
 
 const arr = ["React", "Python", "JavaScript"];
 
 let longest = "";
 
-for(let s of arr) {
-    if(s.length > longest.length) {
-        longest = s
-    }
+for (let s of arr) {
+  if (s.length > longest.length) {
+    longest = s;
+  }
 }
 
 // console.log(longest);
-
-
-
-
-
-
 
 // question : 35
 
@@ -167,10 +155,26 @@ let b = 10;
 
 a = a + b;
 b = a - b;
-a = a- b;
+a = a - b;
+
+// console.log(a, b)
 
 
 
 
-console.log(a, b)
+
+
+
+
+
+
+
+// question solved: 36
+// wired question
+
+console.log([] == false);
+console.log("" == false);
+console.log(0 == 0);
+
+
 
