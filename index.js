@@ -172,9 +172,25 @@ a = a - b;
 // question solved: 36
 // wired question
 
-console.log([] == false);
-console.log("" == false);
-console.log(0 == 0);
+// console.log([] == false);
+// console.log("" == false);
+// console.log(0 == 0);
+
+
+
+
+
+// question solve: 37
+// Input: I love javaScript
+// output: 3
+
+
+function countWord(str) {
+return str.trim().split(" ").length
+}
+
+
+// console.log(countWord("I love js"));
 
 
 
