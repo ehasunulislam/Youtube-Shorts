@@ -194,3 +194,34 @@ return str.trim().split(" ").length
 
 
 
+
+
+
+
+// question solved: 38 
+// Group Array Items by property
+
+const users = [
+  {name: "Rahul", city: "Bogura"},
+  {name: "Roni", city: "Bogura"},
+  {name: "Mohin", city: "khulna"},
+  {name: "Ehasun", city: "Rajshahi"},
+]
+
+function gropued(arr) {
+ return arr.reduce((acc, curr) => {
+  const city = curr.city;
+
+  if(!acc[city]) {
+    acc[city] = []
+  };
+
+  acc[city].push(curr);
+
+  return acc;
+ }, {})
+};
+
+
+// console.log(gropued(users));
+
