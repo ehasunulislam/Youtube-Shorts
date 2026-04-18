@@ -208,19 +208,19 @@ const users = [
   {name: "Ehasun", city: "Rajshahi"},
 ]
 
-function gropued(arr) {
- return arr.reduce((acc, curr) => {
-  const city = curr.city;
+// function gropued(arr) {
+//  return arr.reduce((acc, curr) => {
+//   const city = curr.city;
 
-  if(!acc[city]) {
-    acc[city] = []
-  };
+//   if(!acc[city]) {
+//     acc[city] = []
+//   };
 
-  acc[city].push(curr);
+//   acc[city].push(curr);
 
-  return acc;
- }, {})
-};
+//   return acc;
+//  }, {})
+// };
 
 
 // console.log(gropued(users));
