@@ -225,3 +225,5 @@ const users = [
 
 // console.log(gropued(users));
 
+
+const intial = 0;
