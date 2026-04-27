@@ -53,6 +53,6 @@ function subArray(nums, k) {
     return count
 }
 
-const nums = [1,1,1, 5, 8, 10];
-const k = 5;
-console.log(subArray(nums, k));
+// const nums = [1,1,1, 5, 8, 10];
+// const k = 5;
+// console.log(subArray(nums, k));
