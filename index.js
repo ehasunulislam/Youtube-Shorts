@@ -150,12 +150,12 @@ for (let s of arr) {
 // Input a = 5, b = 10;
 // Output  a = 10, b = 5;
 
-// let a = 5;
-// let b = 10;
+let a = 5;
+let b = 10;
 
-// a = a + b;
-// b = a - b;
-// a = a - b;
+a = a + b;
+b = a - b;
+a = a - b;
 
 // console.log(a, b)
 
