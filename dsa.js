@@ -55,4 +55,4 @@ function output(nums, target) {
 
 // const nums = [1,1,1, 5, 8, 10];
 // const k = 5;
-console.log(subArray(nums, k));
+// console.log(subArray(nums, k));
